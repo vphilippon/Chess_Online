@@ -4,7 +4,7 @@
  Programme : JeuEchec.cpp
  Auteur : Alexandre Beaulieu et Vincent Philippon
  Date de creation : 27 avril 2010
- But du programme :    Un jeu d'�chec jouable en r�seau.
+ But du programme : Un jeu d'�chec jouable en r�seau.
  ******************************************************************************************/
 
 //Directives au pr�processeur
@@ -61,10 +61,9 @@ int main(int argc, char *argv[])
 
   char strJoueur[9];  //Joueur actuel
 
-  SDL_Event event;  //�v�nement capt� par SDL_WaitEvent
+  SDL_Event event;  //�v�nement capte par SDL_WaitEvent
 
-  SDL_Surface *ecran = NULL,  //pointeur de l'�cran
-      *joueurActuel = NULL;  //Surface pour le texte du joueur actuel
+  SDL_Surface *ecran = NULL;  //pointeur de l'�cran
 
   SDL_Rect positionTexte;  //O� est affich� le joueur actuel
 
