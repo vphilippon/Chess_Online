@@ -4,7 +4,7 @@
  fichier : passif.h
  Auteur : Alexandre Beaulieu et Vincent Philippon
  Date de creation : 27 avril 2010
- Fichier d'ent�te des actions passives
+ Fichier d'entete des actions passives
  ******************************************************************************************/
 
 //Directive au pr�-processeur
